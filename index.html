@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthyEating</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Healthy Eating Slideshow</h1>
+    <div class="slide-container">
+        <div class="mySlides fade">
+            <div class="photo-number ">1/4</div>
+            <img src="avocado.jpg" style="width: 100%;">
+            <div class="caption">Avocados contain a wide range of nutrients. Health benefits of avocado consumption may
+                include improving digestion, lowering the risk of depression, and preventing bone loss.</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="photo-number">2/4</div>
+            <img src="fish.jpg" style="width: 100%;">
+            <div class="caption">Fish is filled with omega-3 fatty acids and vitamins such as D and B2 (riboflavin).
+                Fish is rich in calcium and phosphorus and a great source of minerals, such as iron, zinc, iodine,
+                magnesium, and potassium. The American Heart Association recommends eating fish at least two times per
+                week as part of a healthy diet.</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="photo-number">3/4</div>
+            <img src="fruit.jpg" style="width: 100%;">
+            <div class="caption">Fruits contain important vitamins, minerals and plant chemicals. They also contain
+                fibre. There are many varieties of fruit and vegetables available and many ways to prepare, cook and
+                serve them. A diet high in fruit and vegetables can help protect you against cancer, diabetes and heart
+                disease.</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="photo-number">4/4</div>
+            <img src="vegetables.jpg" style="width: 100%;">
+            <div class="caption">Eating vegetables every day is important for health. They provide essential vitamins,
+                minerals, and other nutrients, such as antioxidants and fiber. Research consistently shows that people
+                who eat at least five servings of vegetables a day have the lowest risk of many diseases, including
+                cancer and heart disease.</div>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div style="text-align:center;">
+        <span class="dot" onclick="currentSlide(1)">1</span>
+        <span class="dot" onclick="currentSlide(2)">2</span>
+        <span class="dot" onclick="currentSlide(3)">3</span>
+        <span class="dot" onclick="currentSlide(4)">4</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
